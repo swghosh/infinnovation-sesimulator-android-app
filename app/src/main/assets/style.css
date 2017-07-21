@@ -7,7 +7,7 @@ body {
     background-color: #111;
 }
 .wrapper {
-    background-image: url(bg1.jpg);
+    background-image: url(images/bg1.jpg);
     background-size: cover;
     background-attachment: fixed;
 
@@ -111,8 +111,13 @@ body {
     background-color: #236;
     color: #fff;
     background-attachment: fixed;
+    min-height: 100%;
     height: 120%;
     text-align: center;
+}
+footer {
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .foot {
     width: 100%;
@@ -164,14 +169,14 @@ body {
     color: #000;
 }
 .content1 th {
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-top: 2%;
+    padding-bottom: 2%;
     padding-left: 2vw;
     padding-right: 2vw;
 }
 .content1 td {
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding-top: 1%;
+    padding-bottom: 1%;
     padding-left: 1vw;
     padding-right: 1vw;
 }
@@ -188,8 +193,8 @@ body {
     color: green;
 }
 .content1 td.sector {
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    padding-top: 3%;
+    padding-bottom: 3%;
     padding-left: 3vw;
     padding-right: 3vw;
 	font-size: 130%;
@@ -227,10 +232,13 @@ body {
     font-size: 120%;
     margin-bottom: 2%;
 }
-canvas.chart {
-    display: block;
-    max-height: 600px;
+canvas.graph {
+    display: inline-block;
+    max-height: 300px;
     max-width: 600px;
+    border: 0.1px solid rgba(255, 255, 255, 0.3);
+    padding: 1%;
+    margin: -2%;
 }
 pre.sector {
     margin-left: 5%;
