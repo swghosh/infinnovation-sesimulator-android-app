@@ -11,4 +11,10 @@
         android:title="Refresh"
         android:showAsAction="ifRoom|withText"
         />
+
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"
+        android:showAsAction="ifRoom|withText"
+        />
 </menu>

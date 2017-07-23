@@ -70,6 +70,9 @@ public class MainActivity extends AppCompatActivity {
                     mWebView.reload();
                 }
                 break;
+            case R.id.exit:
+                finish();
+                break;
         }
 
         return true;
